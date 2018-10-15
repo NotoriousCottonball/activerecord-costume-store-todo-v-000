@@ -27,11 +27,8 @@ ActiveRecord::Schema.define(version: 3) do
     t.float "price"
     t.string "image_url"
     t.string "size"
-<<<<<<< HEAD
-=======
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
->>>>>>> 08f6691acaedc008bfafa7fdf6b80171b659cc44
   end
 
   create_table "haunted_houses", force: :cascade do |t|
